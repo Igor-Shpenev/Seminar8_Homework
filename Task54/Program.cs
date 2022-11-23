@@ -39,7 +39,7 @@ int[,] OrderingRows(int[,] array)
                 {
                     int temp = 0;
                     temp = array[i, x];
-                    array[i, x] = array[i, x + 1];
+                    array[i, x] = array[i, x + 1];             // Если значение элемента в следующем столбце строки больше, текущего -> меняем их местами
                     array[i, x + 1] = temp;
                 }
             }
