@@ -26,7 +26,7 @@ void PrintArr(int[,] array)
     Console.WriteLine();
 }
 
-int[,] Qwe(int[,] array)
+int[,] OrderingRows(int[,] array)
 {
     for (int i = 0; i < array.GetLength(0); i++)
     {
@@ -59,7 +59,7 @@ int columns = Convert.ToInt32(Console.ReadLine());
 
 int[,] Arr = MatrixArray(rows, columns);
 PrintArr(Arr);
-Qwe(Arr);
+OrderingRows(Arr);
 PrintArr(Arr);
 
 
